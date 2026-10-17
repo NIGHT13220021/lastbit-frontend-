@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "LastBite",
+    "slug": "lastbite",
+    "scheme": "lastbite",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#E23744"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.kundan.lastbite",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.yourname.lastbite"
+    },
+    "plugins": [
+      "expo-status-bar",
+      "expo-web-browser",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "LastBite uses your photos so you can add pictures of your dishes.",
+          "cameraPermission": "LastBite uses your camera so you can take pictures of your dishes."
+        }
+      ],
+      "expo-font"
+    ]
+  }
+}
